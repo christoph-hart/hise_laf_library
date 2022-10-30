@@ -7,7 +7,7 @@ This file contains screenshots and links to all examples in this library along w
 ### Orange's LAF collection
 
 
-Author: [orange](https://forum.hise.audio/user/orange)
+Author: [orange](https://forum.hise.audio/user/orange). 
 HIP File: `OrangeLAFCollection1.hip`
 
 ![](https://i.imgur.com/QtV8WQI.png)
