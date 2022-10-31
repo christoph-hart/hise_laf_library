@@ -59,7 +59,7 @@ Link to code file: [knobPeakMeter_bySteveMohican.js](https://github.com/christop
 
 Author: [DanH](https://forum.hise.audio/user/danh). 
 
-![](https://i.imgur.com/ioGY3As.png)
+![](https://i.imgur.com/qRBTWHQ.jpg)
 
 HISE Snippet:
 ```
