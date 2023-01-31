@@ -85,12 +85,21 @@
 
 -------------------------------------------------------------------------- */
 
+////////////////////////////// GETTING STARTED //////////////////////////////
+//
+// Before you compile, place the fonts you want to use in the Images folder
+// of your Project folder. I'd suggest a standard font, and a bold version.
+// Then, go to the next section (Toolkit Constants), and replacee the name 
+// of the two fonts (medium and bold) with the fonts' files names.
+// Then, you're ready to compiles!
+//
+/////////////////////////////////////////////////////////////////////////////
+
 ///////////////////////////// TOOLKIT CONSTANTS /////////////////////////////
 //
 // ------------- Description
 //
 // These constants are used for mulitple widgets in the toolkit.
-//
 //
 /////////////////////////////////////////////////////////////////////////////
 
@@ -110,6 +119,12 @@ const COMPONENT_TEXTCOLOUR = 3;
 const BUTTONWELL_TOPLEFT_GRADIENT_COLOUR = 0xFF28282D;
 const BUTTONWELL_BOTTOMRIGHT_GRADIENT_COLOUR = 0xFF474751;
 const WIDGETOFF_INDICATOR_COLOUR = 0xFF5A5B5C;
+
+// ------------- Toolkit Default Fonts
+
+// Load the fonts from the "Images" folder in your project folder.
+//Engine.loadFontAs("{PROJECT_FOLDER}oxygen.regular.ttf", 'OxygenRegular');
+//Engine.loadFontAs("{PROJECT_FOLDER}oxygen.bold.ttf", 'OxygenBold');
 
 
 // Define the font defaults.
