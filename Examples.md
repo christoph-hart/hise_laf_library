@@ -271,7 +271,7 @@ HiseSnippet 1547.3ocsW0kaaaDDlz1rHRoonAnG.B8DcphBkjskaBJp7eJ0nwNBVNAEHvHXE2UhaL0
 
 ```
 
-NOTE: In order to use this, yu need to enable the preprocessor HISE_USE_SCRIPT_RECTANGLE_OBJECT=1. 
+NOTE: In order to use this, you need to enable the preprocessor `HISE_USE_SCRIPT_RECTANGLE_OBJECT=1`. 
 
 Link to code file: [fantastic4Button_byDavidHealey.js](https://github.com/christoph-hart/hise_laf_library/blob/main/hise_laf_library_project/Scripts/fantastic4Button_byDavidHealey.js)
 
