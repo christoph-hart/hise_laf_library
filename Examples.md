@@ -318,7 +318,7 @@ Link to code file: [draggableAHDSRComponent_byHISEnberg&Ulrik.js](https://github
 
 Author: [orange](https://forum.hise.audio/user/orange). 
 
-![](https://forum.hise.audio/assets/uploads/files/1744810977918-neuuu.png)
+![](https://forum.hise.audio/assets/uploads/files/1744812700915-neuuu.png)
 
 HISE Snippet:
 ```
