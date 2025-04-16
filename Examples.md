@@ -289,7 +289,7 @@ Link to code file: [fantastic4Button_byDavidHealey.js](https://github.com/christ
 
 Author: [HISEnberg](https://forum.hise.audio/user/hisenberg) & [ulrik](https://forum.hise.audio/user/ulrik)
 
-![](https://i.imgur.com/L8Z212Q.gif)
+![](https://forum.hise.audio/assets/uploads/files/1744808130204-example.gif)
 
 HISE Snippet:
 ```
