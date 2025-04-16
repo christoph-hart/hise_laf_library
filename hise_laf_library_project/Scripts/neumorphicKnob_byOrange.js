@@ -2,6 +2,7 @@
 
 // It will be better if the Knob width is more than 90 px
 
+
 const neumKnbLAF = Content.createLocalLookAndFeel();
 	
 neumKnbLAF.registerFunction("drawRotarySlider", function(g, obj)
@@ -22,13 +23,13 @@ g.drawAlignedText(obj.text, [a[0], a[2] - (a[2] * 0.088888889), a[2], 20], "cent
 var pth = Content.createPath();
 pth.addEllipse(a);
 
-c1 = Colours.withAlpha(Colours.black, 1.0);
+c1 = Colours.withAlpha(Colours.black, 0.5);
 g.drawDropShadowFromPath(pth, [a[0] + (a[2] * 0.133333333), a[1] + (a[2] * 0.173333333), a[2] - (a[2] * 0.266666667), a[2] - (a[2] * 0.255555556)], c1, (a[2] * 0.166666667), [0, (a[2] * 0.122222222)]);
 
 
 // Neumorphic Shadow - Grey
-c1 = Colours.withAlpha(Colours.white, 0.24);	
-g.drawDropShadowFromPath(pth, [(a[2] * 12/90), (a[2] * 10/90), a[2] - (a[2] * 24/90), a[2] - (a[2] * 24/90)], c1, (a[2] * 11/90), [0, (a[2] * (-3)/90)]);
+c1 = Colours.withAlpha(Colours.white, 0.14);	
+g.drawDropShadowFromPath(pth, [(a[2] * 12/90), (a[2] * 11/90), a[2] - (a[2] * 24/90), a[2] - (a[2] * 24/90)], c1, (a[2] * 11/90), [0, (a[2] * (-3)/90)]);
 
 
 
@@ -37,21 +38,18 @@ c1 = Colours.withAlpha(Colours.black, 0.5);
 
 g.setGradientFill([c1, 0.5 * a[2], a[1], c2, 0.5 * a[2], a[2]]);
 g.fillEllipse([(a[2] * 11.5/90), (a[2] * 11.5/90), a[2] - (a[2] * 23/90), a[2] - (a[2] * 23/90)]);
+g.fillEllipse([(a[2] * 11.5/90), (a[2] * 12.5/90), a[2] - (a[2] * 23/90), a[2] - (a[2] * 23/90)]);
 
 
 
-
-// Inner Black Hole
-g.setColour(Colours.withAlpha(c1, 0.9));
+// Inner Panel
+g.setColour(Colours.withAlpha(obj.itemColour1, 1.0));
 g.fillEllipse([(a[2] * 13/90), (a[2] * 13/90), a[2] - (a[2] * 26/90), a[2] - (a[2] * 24/90)]);
 
 
 
-// Bottom Spark
-c1 = Colours.withAlpha(Colours.white, 0.2);
 
-g.setGradientFill([c1, 0.5 * a[2], a[2], c2, 0.5 * a[2], 0.5 * a[2], true]);
-g.drawEllipse([(a[2] * 13/90), (a[2] * 13/90), a[2] - (a[2] * 26/90), a[2] - (a[2] * 24/90)], (a[2] * 2/90));
+
 
 
 
@@ -120,6 +118,10 @@ Knob1.setLocalLookAndFeel(neumKnbLAF);
 
 
 
+
+
+
+	
 
 
 
